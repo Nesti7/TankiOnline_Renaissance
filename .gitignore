@@ -1,0 +1,13 @@
+# Игнорируем расшифрованные файлы
+index.html
+package.json
+style.css
+js/
+game.tar.gz
+node_modules/
+
+# Оставляем только зашифрованные файлы
+!game.encrypted
+!decrypt_and_run.sh
+!README.md
+
