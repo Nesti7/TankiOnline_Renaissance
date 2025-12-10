@@ -1,0 +1,11 @@
+# Шифровать все игровые файлы
+js/**/*.js filter=git-crypt diff=git-crypt
+*.html filter=git-crypt diff=git-crypt
+*.css filter=git-crypt diff=git-crypt
+*.json filter=git-crypt diff=git-crypt
+
+# НЕ шифровать системные файлы
+.gitignore filter=
+README.md filter=
+.gitattributes filter=
+
