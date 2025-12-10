@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Танки Онлайн</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="ui">
+            <div id="health-bar">
+                <div id="health-label">Здоровье:</div>
+                <div id="health-value">100</div>
+            </div>
+            <div id="score">
+                <div id="score-label">Счет:</div>
+                <div id="score-value">0</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+    <script src="js/entities/Wall.js"></script>
+    <script src="js/entities/Bullet.js"></script>
+    <script src="js/entities/Tank.js"></script>
+    <script src="js/scenes/GameScene.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
