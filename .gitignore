@@ -6,6 +6,11 @@ js/
 game.tar.gz
 node_modules/
 
+# Игнорируем секретные файлы
+SECURITY.md
+*.key
+*.pem
+
 # Оставляем только зашифрованные файлы
 !game.encrypted
 !decrypt_and_run.sh
